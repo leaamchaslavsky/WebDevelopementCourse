@@ -1,0 +1,113 @@
+body {
+    direction: rtl;
+}
+   
+h1{
+    color:white;
+    font-family:'Amatic SC';
+    font-size:70px;
+    margin-right:450px;
+   
+    
+    
+}
+h2{
+    color:white;
+    font-family:'Amatic SC';
+    font-size:50px;
+    text-align:center;
+    padding-bottom:40px;
+    
+
+}
+.lea{
+    width:1200px;
+    height:200px;
+    margin-right:80px;
+    background-color:black;
+    background-repeat:no-repeat;
+    background-size:300px;
+    background-image:url(../img/lea.gif);
+    background-position-x:-50px;
+    background-position-y:-70px;
+   
+}
+.lea2{
+    margin-left:82px;
+    height:1200px;
+    float:left;
+    background-color:lightpink;
+    width:200px;
+}
+h3{
+    background-color:black;
+    width:100px;
+    height:20px;
+    color:white;
+    margin-right:40px;
+    padding:7px;
+    text-align:center;
+    font-family:'Amatic SC';
+}
+h4{  
+    padding:10px;
+    text-align:center;
+    font-family:'Amatic SC';
+}
+h5{
+    color:black;
+    text-align:center;
+    font-family:'Amatic SC';
+    font-size:14px;
+
+}
+#facebook{
+    background-image:url(../img/facebook.gif);
+    background-position-y:-36px;
+    background-position-x:-1px;
+    background-size:100px;
+    background-repeat:no-repeat;
+}
+#email{
+    background-image:url(../img/mail1.gif);
+    background-position-y:-50px;
+    background-position-x:1px;
+    background-size:100px;
+    background-repeat:no-repeat;
+}
+#phon{
+    background-image:url(../img/phon-1.gif);
+    background-position-y:-36px;
+    background-position-x:-6px;
+    background-size:100px;
+    background-repeat:no-repeat;
+}
+#address{
+    background-image:url(../img/loc.gif);
+    background-position-y:-36px;
+    background-position-x:-2px;
+    background-size:100px;
+    background-repeat:no-repeat;
+}
+a:link{
+   color:purple; text-decoration:none; background-color:transparent;
+}
+a:hover{
+color:blue;
+}
+a:active{
+    color:blue;
+}
+.lea3{
+    width:1000px;
+    margin-right:80px;
+    font-family:Arial;
+}
+h6{
+    font-family:'Amatic SC';
+    font-size:22px;
+    background-color:lightpink;
+}
+ul{
+    list-style:circle;
+}
