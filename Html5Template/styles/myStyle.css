@@ -1,6 +1,9 @@
 body {
     direction: rtl;
 }
+#container{
+    width:1361px;
+}
    
 h1{
     color:white;
