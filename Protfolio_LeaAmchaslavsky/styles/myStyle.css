@@ -18,7 +18,7 @@ body {
     #nav1 ul li {
         display: inline-block;
         float: right;
-        font-family: 'Amatica SC';
+        font-family: 'Amatica SC',cursive;
         color: #808080;
         font-size: 28pt;
         padding: 31px;
@@ -34,7 +34,7 @@ body {
             }
 
         #nav1 ul li:hover::after {
-            font-family: Calibri;
+            font-family: Arimo, sans-serif;
             color: black;
             content: "/";
         }
@@ -53,7 +53,7 @@ body {
 }
 
     #mylea h1 {
-        font-family: 'Amatica SC';
+        font-family: 'Amatica SC', cursive;
         font-size: 48pt;
         color: #3f3e3e;
         padding-right: 340px;
@@ -61,7 +61,7 @@ body {
 
     #mylea p {
         width: 309px;
-        font-family: Arimo;
+        font-family: Arimo, sans-serif;
         font-size: 12pt;
         padding-top: 20px;
         text-align: right;
@@ -105,7 +105,7 @@ body {
 }
 
     #tikshoret h1 {
-        font-family: 'Amatica SC';
+        font-family: 'Amatica SC', cursive;
         font-size: 36px;
         color: #3f3e3e;
         padding-right: 391px;
@@ -113,7 +113,7 @@ body {
     }
 
     #tikshoret p {
-        font-family: Arimo;
+        font-family: Arimo, sans-serif;
         font-size: 12pt;
         color: black;
         width: 602px;
@@ -224,14 +224,14 @@ a.lightbox-close {
     }
 
 #tikshoret h2 {
-    font-family: 'Amatica SC';
+    font-family: 'Amatica SC', cursive;
     font-size: 16pt;
     margin-right: 393px;
     padding: 10px;
 }
 
 #tikshoret h3 {
-    font-family: Arimo;
+    font-family: Arimo, sans-serif;
     font-size: 7pt;
     margin-right: 394px;
     padding-bottom: 5px;
@@ -258,7 +258,7 @@ iframe {
 
 
     #irgon h1 {
-        font-family: 'Amatica SC';
+        font-family: 'Amatica SC', cursive;
         font-size: 27pt;
         margin-right: 411px;
         padding-top: 195px;
@@ -266,7 +266,7 @@ iframe {
     }
 
     #irgon p {
-        font-family: Arimo;
+        font-family: Arimo, sans-serif;
         line-height: 17px;
         font-size: 10pt;
         padding-right: 292px;
@@ -274,21 +274,21 @@ iframe {
     }
 
 figcaption {
-    font-family: Arimo;
+    font-family: Arimo, sans-serif;
     font-size: 7pt;
     margin-right: 348px;
     padding-bottom: 7px;
 }
 
 #irgon h3 {
-    font-family: Arimo;
+    font-family: Arimo, sans-serif;
     font-size: 7pt;
     margin-right: 383px;
     padding: 5px;
 }
 
 #irgon {
-    font-family: Arimo;
+    font-family: Arimo, sans-serif;
     font-size: 10pt;
     margin-right: 25px;
     padding-top: 5px;
@@ -311,7 +311,7 @@ figcaption {
 }
 
     #grafica h1 {
-        font-family: 'Amatica SC';
+        font-family: 'Amatica SC', cursive;
         font-size: 27pt;
         margin-right: 411px;
         padding-top: 162px;
@@ -319,7 +319,7 @@ figcaption {
     }
 
     #grafica p {
-        font-family: Arimo;
+        font-family: Arimo, sans-serif;
         line-height: 17px;
         font-size: 10pt;
         padding-right: 273px;
@@ -327,7 +327,7 @@ figcaption {
     }
 
     #grafica h2 {
-        font-family: Arimo;
+        font-family: Arimo, sans-serif;
         font-size: 7pt;
         padding-right: 443px;
         padding-bottom: 2px;
@@ -339,7 +339,7 @@ figcaption {
 }
 
 #kraza figcaption {
-    font-family: Arimo;
+    font-family: Arimo, sans-serif;
     font-size: 7pt;
     padding-right: 94px;
     padding-bottom: 2px;
