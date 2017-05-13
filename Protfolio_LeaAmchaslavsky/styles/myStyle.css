@@ -1,0 +1,346 @@
+body {
+    direction: rtl;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+#nav1 ul {
+    padding-right: 50px;
+    list-style: none;
+    width: 960px;
+    height: 100px;
+}
+
+    #nav1 ul li {
+        display: inline-block;
+        float: right;
+        font-family: 'Amatica SC';
+        color: #808080;
+        font-size: 28pt;
+        padding: 31px;
+    }
+
+        #nav1 ul li a {
+            text-decoration: none;
+            color: #808080;
+        }
+
+            #nav1 ul li a:hover {
+                color: black;
+            }
+
+        #nav1 ul li:hover::after {
+            font-family: Calibri;
+            color: black;
+            content: "/";
+        }
+
+        #nav1 ul li:hover:last-child::after {
+            content: " ";
+        }
+
+#mylea {
+    background-image: url(../images/Untitled-1.png);
+    background-repeat: no-repeat;
+    width: 852px;
+    height: 774px;
+    background-size: 774px;
+    background-position-y: 83px;
+}
+
+    #mylea h1 {
+        font-family: 'Amatica SC';
+        font-size: 48pt;
+        color: #3f3e3e;
+        padding-right: 340px;
+    }
+
+    #mylea p {
+        width: 309px;
+        font-family: Arimo;
+        font-size: 12pt;
+        padding-top: 20px;
+        text-align: right;
+        padding-right: 330px;
+    }
+
+#profili {
+    padding-right: 379px;
+    padding-top: 100px;
+}
+
+#mycontact {
+    padding-right: 361px;
+    padding-top: 130px;
+}
+
+    #mycontact a {
+        text-decoration: none;
+    }
+
+        #mycontact a img {
+            padding: 10px;
+            -webkit-transition: all 1s ease-out;
+            -moz-transition: all 1s ease-out;
+            -ms-transition: all 1s ease-out;
+            -o-transition: all 1s ease-out;
+            transition: all 1s ease-out;
+        }
+
+            #mycontact a img:hover {
+                width: 60px;
+                height: 60px;
+            }
+
+#tikshoret {
+    background-image: url(../images/riboa.png);
+    background-repeat: no-repeat;
+    width: 853px;
+    height: 838px;
+    background-size: 800px;
+}
+
+    #tikshoret h1 {
+        font-family: 'Amatica SC';
+        font-size: 36px;
+        color: #3f3e3e;
+        padding-right: 391px;
+        padding-top: 50px;
+    }
+
+    #tikshoret p {
+        font-family: Arimo;
+        font-size: 12pt;
+        color: black;
+        width: 602px;
+        padding-right: 168px;
+        padding-top: 10px;
+    }
+
+a.lightbox img {
+    height: 150px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+    margin-right: 389px;
+}
+
+
+.lightbox-target {
+    position: fixed;
+    top: -100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    width: 63%;
+    opacity: 0;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+    overflow: hidden;
+}
+
+    .lightbox-target img {
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        max-height: 0%;
+        max-width: 0%;
+        border: 3px solid white;
+        box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+        box-sizing: border-box;
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+    }
+
+a.lightbox-close {
+    display: block;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    background: white;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    top: -80px;
+    right: 0;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+    a.lightbox-close:before {
+        content: "";
+        display: block;
+        height: 30px;
+        width: 1px;
+        background: black;
+        position: absolute;
+        left: 26px;
+        top: 10px;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    a.lightbox-close:after {
+        content: "";
+        display: block;
+        height: 30px;
+        width: 1px;
+        background: black;
+        position: absolute;
+        left: 26px;
+        top: 10px;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+.lightbox-target:target {
+    opacity: 1;
+    top: 0;
+    bottom: 0;
+}
+
+    .lightbox-target:target img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .lightbox-target:target a.lightbox-close {
+        top: 0px;
+    }
+
+#tikshoret h2 {
+    font-family: 'Amatica SC';
+    font-size: 16pt;
+    margin-right: 393px;
+    padding: 10px;
+}
+
+#tikshoret h3 {
+    font-family: Arimo;
+    font-size: 7pt;
+    margin-right: 394px;
+    padding-bottom: 5px;
+}
+
+#tikshoret figcaption {
+    font-family: Arimo;
+    font-size: 7pt;
+    margin-right: 394px;
+    padding-bottom: 5px;
+}
+
+iframe {
+    padding-right: 240px;
+}
+
+#irgon {
+    background-image: url(../images/meoyan.png);
+    background-repeat: no-repeat;
+    width: 890px;
+    height: 800px;
+    background-size: 828px;
+}
+
+
+    #irgon h1 {
+        font-family: 'Amatica SC';
+        font-size: 27pt;
+        margin-right: 411px;
+        padding-top: 195px;
+        padding-bottom: 10px;
+    }
+
+    #irgon p {
+        font-family: Arimo;
+        line-height: 17px;
+        font-size: 10pt;
+        padding-right: 292px;
+        width: 420px;
+    }
+
+figcaption {
+    font-family: Arimo;
+    font-size: 7pt;
+    margin-right: 348px;
+    padding-bottom: 7px;
+}
+
+#irgon h3 {
+    font-family: Arimo;
+    font-size: 7pt;
+    margin-right: 383px;
+    padding: 5px;
+}
+
+#irgon {
+    font-family: Arimo;
+    font-size: 10pt;
+    margin-right: 25px;
+    padding-top: 5px;
+}
+
+#controls {
+    padding-right: 305px;
+}
+
+#alfon img {
+    margin-right: 349px;
+}
+
+#grafica {
+    background-image: url(../images/igol.png);
+    background-repeat: no-repeat;
+    width: 840px;
+    height: 800px;
+    background-size: 700px;
+}
+
+    #grafica h1 {
+        font-family: 'Amatica SC';
+        font-size: 27pt;
+        margin-right: 411px;
+        padding-top: 162px;
+        padding-bottom: 10px;
+    }
+
+    #grafica p {
+        font-family: Arimo;
+        line-height: 17px;
+        font-size: 10pt;
+        padding-right: 273px;
+        width: 420px;
+    }
+
+    #grafica h2 {
+        font-family: Arimo;
+        font-size: 7pt;
+        padding-right: 443px;
+        padding-bottom: 2px;
+        padding-top: 10px;
+    }
+
+#kraza img {
+    margin-right: 439px;
+}
+
+#kraza figcaption {
+    font-family: Arimo;
+    font-size: 7pt;
+    padding-right: 94px;
+    padding-bottom: 2px;
+}
